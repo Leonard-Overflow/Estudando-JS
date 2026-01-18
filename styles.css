@@ -1,0 +1,56 @@
+:root{
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Roboto 400" sans-serif;
+    transition: 0.3s linear;
+}
+
+body{
+    background-color: rgb(29, 29, 29);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.header section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20x;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    position:absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.navbar{
+    margin-top: 15px;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar a:hover{
+    transform: scale(1.2);
+    border-bottom: 0.1rem solid white;
+}
